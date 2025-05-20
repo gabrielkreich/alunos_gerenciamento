@@ -66,4 +66,3 @@ def deletar_aluno(matricula):
     ALUNOS.pop(matricula)               #.pop para excluir
 
     return "Aluno excluido com sucesso!"
-

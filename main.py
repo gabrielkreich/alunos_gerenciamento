@@ -12,6 +12,7 @@ while comando != "sair":
                     f"2) Listar Alunos \n"
                     f"3) Detalhar Aluno \n"
                     f"4) Deletar Aluno \n"
+                    f"5) Listar Alunos aprovados \n"
                     f"Digite 'sair' para sair do sistema \n")
 
     match comando:
@@ -34,6 +35,10 @@ while comando != "sair":
             matricula = input("informe a matricula do aluno: ")
 
             print(deletar_aluno(matricula))
+
+        case "5":
+
+
 
         case "sair":
             print("Saindo do sistema.")
